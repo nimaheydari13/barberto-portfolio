@@ -1,0 +1,105 @@
+name: barberto
+description: A feature-rich Flutter app for barber booking, appointment management, and location-based discovery. Built with modern architecture and optimized performance.
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.2.1
+  glassmorphism: ^3.0.0
+  carousel_slider: ^5.1.1
+  animated_shimmer: ^1.0.0
+  curved_navigation_bar: ^1.0.6
+  expandable_text: ^2.3.0
+  iconsax: ^0.0.8
+
+  # State Management & Providers
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+  provider: ^6.1.5+1
+
+  # Backend & API
+  appwrite: ^19.1.0
+  http: ^1.5.0
+  flutter_dotenv: ^6.0.0
+
+  # Authentication & Security
+  flutter_secure_storage: ^9.2.4
+  google_sign_in: ^7.2.0
+
+  # Location & Maps
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  google_maps_flutter: ^2.13.1
+
+  # Utilities
+  package_info_plus: ^8.0.2
+  device_info_plus: ^11.5.0
+  image_picker: ^1.2.0
+  intl: ^0.20.2
+  url_launcher: ^6.3.2
+  uuid: ^4.5.1
+  pub_semver: ^2.2.0
+  shared_preferences: ^2.5.3
+  shamsi_date: ^1.1.1
+  flutter_native_splash: ^2.4.6
+  flutter_swiper_plus: ^2.0.4
+  webview_flutter: ^4.13.0
+  adivery: ^4.8.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+  riverpod_generator: ^2.4.0
+  build_runner: ^2.4.9
+
+flutter_native_splash:
+  color: "#f56616"
+  image: images/logo.png
+  android: true
+  ios: true
+  fullscreen: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/loading.gif
+    - images/profile_image/profile_girl.png
+    - images/profile_image/profile_boy.png
+    - images/profile_image/profile_man.png
+    - images/profile_image/profile_woman.png
+    - images/profile_image/profile_hijabiwoman.png
+    - images/profile_image/profile_man2.png
+    - images/logo_nobg.png
+    - images/logo.png
+    - images/barberto_logo_nobg.png
+
+  fonts:
+    - family: IranYekanX-Bold
+      fonts:
+        - asset: fonts/IRANYekanX-Bold.ttf
+    - family: IranYekanX-Medium
+      fonts:
+        - asset: fonts/IRANYekanX-Medium.ttf
+    - family: IranYekanXFaNum-Bold
+      fonts:
+        - asset: fonts/IRANYekanXFaNum-Bold.ttf
+    - family: IranYekanXFaNum-Medium
+      fonts:
+        - asset: fonts/IRANYekanXFaNum-Medium.ttf
