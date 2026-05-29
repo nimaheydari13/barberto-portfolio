@@ -6,6 +6,8 @@
 
 > A feature-rich Flutter mobile application for barber shop booking, appointment management, and location-based discovery. Built with modern architecture, optimized performance, and scalable design patterns.
 
+![Barberto Logo](https://fra.cloud.appwrite.io/v1/storage/buckets/6512862eb64fa6152aa6/files/6a19acc9003cc1f25fca/view?project=65ab89158ab664c5048b&mode=admin)
+
 ## 🌟 Key Features
 
 ### Core Functionality
